@@ -1,0 +1,195 @@
+{
+  "brand": {
+    "title": "Babel Between Us",
+    "logoSrc": "/favicon.ico",
+    "imageSrc": "/logo.png",
+    "beginText": "BEGIN",
+    "beginTitle": "Let's get started!",
+    "diagram": {
+      "src": "/glyphs.jpeg",
+      "alt": "A picture of a Babel Beast with many heads"
+    },
+    "whatIsThis": "<p><em>Aenean ultricies mi vitae est.</em> Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, <code>commodo vitae</code>, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. <a href='#>Donec non enim</a> in turpis pulvinar facilisis.</p>"
+  },
+  "slideDefaults": {
+    "title": "Q{{index}}",
+    "backText": "BACK",
+    "nextText": "NEXT",
+    "backTitle": "Go back",
+    "nextTitle": "Continue",
+    "cancelTitle": "Clear all answers and start again",
+    "fields": [{
+      "name": "message",
+      "type": "textarea",
+      "placeholder": "write here...",
+      "required": false,
+      "autofocus": true,
+      "error": "Please write a response!",
+      "settings": { "omit": true }
+    }],
+    "diagram": {},
+    "settings": { "omitFields": true, "omit": true }
+  },
+  "slides": [{
+      "index": 1,
+      "title": "",
+      "dynamic": false,
+      "diagram": {
+        "src": "quipu.gif",
+        "alt": "Tower of Babel"
+      },      
+      "body": "<h1>Who are you?</h1><p>This is the application for the Babel Between Us project. If you have not read <a href='https://www.babelbetween.us/'>the introduction to the project</a>, you should do so before applying.</p> <p>We ask you to pick a pseudonym as the project is anonymous at the start. This pseudonym will be your username throughout the project.</p> <p><strong>All information in the application will only be available to the Babel Between Us team, unless otherwise stated.</p>",
+      "fields": [{
+        "name": "name",
+        "type": "text",
+        "placeholder": "What is your name?",
+        "half": true,
+        "required": true,
+        "autofocus": true,
+        "error": "Please enter your name",
+        "settings": { "omit": true, "limit": 30 }
+      }, {
+        "name": "pseudonym",
+        "type": "username",
+        "placeholder": "What is your pseudonym?",
+        "half": true,
+        "required": true,
+        "error": "Please enter your pseudonym",
+        "settings": { "omit": false, "limit": 13 }
+      }, {
+        "name": "location",
+        "type": "text",
+        "placeholder": "Where are you based?",
+        "required": false,
+        "error": "Please enter where you are based",
+        "settings": { "omit": true, "limit": 30 }
+      }, {
+        "name": "gender",
+        "type": "text",
+        "placeholder": "Gender identity",
+        "required": false,
+        "error": "Please enter your gender identity",
+        "settings": { "omit": true, "limit": 30 }
+      }, {
+        "name": "age",
+        "type": "text",
+        "placeholder": "What is your age?",
+        "required": false,
+        "error": "Please enter your age",
+        "settings": { "omit": true, "limit": 30 }
+      }, {
+        "name": "bio",
+        "type": "text",
+        "placeholder": "Who are you, in 100 characters or less?",
+        "required": false,
+        "error": "Please enter your age",
+        "settings": { "omit": true, "limit": 100 }
+      }, {
+        "name": "email",
+        "type": "email",
+        "placeholder": "E-mail (If you're already on Edgeryders, use another email)",
+        "required": true,
+        "error": "Please enter your email address",
+        "settings": { "omit": true}
+      }],
+      "settings": { "omitBody": true, "columnName": "details" }
+    },
+    {
+      "index": 2,
+      "title": "About you",
+      "dynamic": false,
+      "diagram": {
+        "src": "grandpaskote3.jpeg",
+        "alt": "Tower of Babel"
+      },
+      "body": "Tell us about yourself and your background. (Less than 1000 characters)",
+      "settings": { "omitBody": true, "omit": true, "columnName": "longbio", "limit": 1000 }
+    },
+    {
+      "index": 3,
+      "title": "About you and others",
+      "dynamic": false,
+      "diagram": {
+        "src": "grandpaskote3.jpeg",
+        "alt": "Tower of Babel"
+      },
+      "body": "Tell us about times when you have collaborated. (Less than 1000 characters)",
+      "settings": { "omitBody": true, "omit": true, "columnName": "collaboration", "limit": 1000 }
+    },
+    {
+      "index": 4,
+      "title": "About you and the worlds of others",
+      "dynamic": false,
+      "diagram": {
+        "src": "grandpaskote1.jpeg",
+        "alt": "Tower of Babel"
+      },
+      "body": "Tell us about some of the fiction you enjoy. (Less than 1000 characters)",
+      "settings": { "omitBody": true, "omit": true, "columnName": "favfiction", "limit": 1000 }
+    },
+    {
+      "index": 5,
+      "title": "About your experiences in the worlds of others",
+      "dynamic": false,
+      "diagram": {
+        "src": "grandpaskote1.jpeg",
+        "alt": "Tower of Babel"
+      },
+      "body": "Tell us about a specific moment when you have been captivated by someone’s fiction. (Less than 1000 characters)",
+      "settings": { "omitBody": true, "omit": true, "columnName": "fictionexperience", "limit": 1000 }
+    },
+    {
+      "index": 6,
+      "title": "Writing sample one",
+      "dynamic": false,
+      "body": "Write something from scratch. (Less than 2000 characters) <br> <br> <strong>This contribution will be posted under your pseudonym on the Babel Between Us platform and will be available for the world to read.</strong>",
+      "settings": { "omitBody": false, "omit": false, "columnName": "unpromptedtest", "limit": 2000 }
+    },
+    {
+      "index": 7,
+      "title": "Writing sample two",
+      "dynamic": true,
+      "body": "The text to the left is a random contribution from another applicant. Respond to or continue this text with a contribution of your own. Evaluators will see which text you have responded to, so don't change it once you have chosen one to work with. There is no guidelines apart from the following the “yes, and” principle. Do as you wish with the fiction. (Less than 2000 characters) <br> <br> <strong>This contribution will be posted under your pseudonym on the Babel Between Us platform and will be available for the world to read.</strong>",
+      "settings": { "omitBody": false, "omit": false, "columnName": "promptedtest", "limit": 2000 }
+    },
+    {
+      "index": 8,
+      "title": "About your work schedule",
+      "dynamic": false,
+      "diagram": {
+        "src": "grandpaskote2.jpeg",
+        "alt": "Tower of Babel"
+      },
+      "body": "How will you manage this project with your current schedule and commitments? (Less than 1000 characters)",
+      "settings": { "omitBody": true, "omit": true, "columnName": "commitments", "limit": 1000 }
+    },
+    {
+    "index": 9,
+    "title": "About you and your data",
+    "instructions": "<p>We will ask selected writers to contribute to a collaborative body of work. After the writing is concluded, we will use the co-created fiction in an interactive presentation. By submitting this form, you are agreeing to release your two writing samples under a <a href='https://creativecommons.org/licenses/by-nc-sa/4.0/' target='_blank'>Creative Commons Attribution-NonCommercial-ShareAlike 4.0</a> license.</p> <p>All content in the Babel Between Us project is released under the same license. Read more about the <a href='https://bbu.world/t/intellectual-property-rights/129' target='_blank'>intellectual property policies of the project here</a>.",    "nextTitle": "Submit your response!",
+    "body": "These questions will be used to register an account for you on bbu.world. You keep your account regardless if you are selected as one of the writers and can stay in touch with us and follow the project. Your writing samples will be published there under your pseudonym, but the rest of the information in the application will only be available to the Babel Between Us team.",
+    "fields": [{
+      "name": "consent",
+      "type": "checkbox",
+      "placeholder": "I understand that submitting this form will create an account for me an Edgeryders Communities account on bbu.world, and that my responses to the two writing samples will be posted under my chosen pseudonym and released under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 license.",
+      "required": true,
+      "error": "Please consent to the terms and conditions",
+      "settings": { "omit": true }
+    }],
+    "nextText": "SEND",
+    "submit": true,
+    "settings": { "omitBody": true, "columnName": "final" }
+  }, {
+    "title": "Thank you!",
+    "body": "Thank you for taking the time to apply to Babel Between Us. You will receive an email from Edgeryders to activate your account at bbu.world and Edgeryders Communities. If you have any questions contact us on <a href='https://bbu.world/c/about-the-project'>our forum bbu.world</a> where you now have an account, or on team@bbu.world or twitter.",
+    "fields": [],
+    "backText": null,
+    "nextText": null
+  }],
+  "messages": {
+    "networkError": "Sorry, we were unable to store your response due to a network connectivity issue. Please try clicking on \"Send\" again.",
+    "username": "It seems somebody has already chosen your preferred username / nickname. Please enter a different one and click again on \"Send\".",
+    "email": "It seems you already have an account on our forum using this e-mail address, or have entered an invalid address. Please choose a different e-mail address and click again on \"Send\".",
+    "default": "Sorry, we were unable to store your response due to an unknown error. Please try clicking on \"Send\" again."
+  }
+}
