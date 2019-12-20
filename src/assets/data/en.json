@@ -60,28 +60,28 @@
         "name": "location",
         "type": "text",
         "placeholder": "Where are you based?",
-        "required": false,
+        "required": true,
         "error": "Please enter where you are based",
         "settings": { "omit": true, "limit": 30 }
       }, {
         "name": "gender",
         "type": "text",
         "placeholder": "Gender identity",
-        "required": false,
+        "required": true,
         "error": "Please enter your gender identity",
         "settings": { "omit": true, "limit": 30 }
       }, {
         "name": "age",
         "type": "text",
         "placeholder": "What is your age?",
-        "required": false,
+        "required": true,
         "error": "Please enter your age",
         "settings": { "omit": true, "limit": 30 }
       }, {
         "name": "bio",
         "type": "text",
         "placeholder": "Who are you, in 100 characters or less?",
-        "required": false,
+        "required": true,
         "error": "Please enter your age",
         "settings": { "omit": true, "limit": 100 }
       }, {
