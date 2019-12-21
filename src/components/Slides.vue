@@ -146,6 +146,7 @@ export default {
 
   .content {
     display: flex;
+    max-height: 80vh;
   }
 
   .even {

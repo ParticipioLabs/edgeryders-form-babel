@@ -32,11 +32,11 @@
   },
   "slides": [{
       "index": 1,
-      "title": "",
+      "title": " ",
       "dynamic": false,
       "diagram": {
-        "src": "quipu.gif",
-        "alt": "Tower of Babel"
+        "src": "quipu.png",
+        "alt": "Drawing of a Quipu"
       },      
       "body": "<h1>Who are you?</h1><p>This is the application for the Babel Between Us project. If you have not read <a href='https://www.babelbetween.us/'>the introduction to the project</a>, you should do so before applying.</p> <p>We ask you to pick a pseudonym as the project is anonymous at the start. This pseudonym will be your username throughout the project.</p> <p><strong>All information in the application will only be available to the Babel Between Us team, unless otherwise stated.</p>",
       "fields": [{
@@ -99,8 +99,8 @@
       "title": "About you",
       "dynamic": false,
       "diagram": {
-        "src": "grandpaskote3.jpeg",
-        "alt": "Tower of Babel"
+        "src": "SuneSkote15.jpg",
+        "alt": "Drawing by Sune Skote, showing a single person in front of a tripod and some equipment by the sea, while a ship sails towards the horizon."
       },
       "body": "Tell us about yourself and your background. (Less than 1000 characters)",
       "settings": { "omitBody": true, "omit": true, "columnName": "longbio", "limit": 1000 }
@@ -110,8 +110,8 @@
       "title": "About you and others",
       "dynamic": false,
       "diagram": {
-        "src": "grandpaskote3.jpeg",
-        "alt": "Tower of Babel"
+        "src": "SuneSkote15.jpg",
+        "alt": "Drawing by Sune Skote, showing a single person in front of a tripod and some equipment by the sea, while a ship sails towards the horizon."
       },
       "body": "Tell us about times when you have collaborated. (Less than 1000 characters)",
       "settings": { "omitBody": true, "omit": true, "columnName": "collaboration", "limit": 1000 }
@@ -121,8 +121,8 @@
       "title": "About you and the worlds of others",
       "dynamic": false,
       "diagram": {
-        "src": "grandpaskote1.jpeg",
-        "alt": "Tower of Babel"
+        "src": "SuneSkote14.jpg",
+        "alt": "Drawing by Sune Skote, showing two people working by the sea with ships on the horizon"
       },
       "body": "Tell us about some of the fiction you enjoy. (Less than 1000 characters)",
       "settings": { "omitBody": true, "omit": true, "columnName": "favfiction", "limit": 1000 }
@@ -132,8 +132,8 @@
       "title": "About your experiences in the worlds of others",
       "dynamic": false,
       "diagram": {
-        "src": "grandpaskote1.jpeg",
-        "alt": "Tower of Babel"
+        "src": "SuneSkote14.jpg",
+        "alt": "Drawing by Sune Skote, showing two people working by the sea with ships on the horizon"
       },
       "body": "Tell us about a specific moment when you have been captivated by someone’s fiction. (Less than 1000 characters)",
       "settings": { "omitBody": true, "omit": true, "columnName": "fictionexperience", "limit": 1000 }
@@ -157,8 +157,8 @@
       "title": "About your work schedule",
       "dynamic": false,
       "diagram": {
-        "src": "grandpaskote2.jpeg",
-        "alt": "Tower of Babel"
+        "src": "SuneSkote13.jpg",
+        "alt": "Drawing by Sune Skote, showing people running towards a creature"
       },
       "body": "How will you manage this project with your current schedule and commitments? (Less than 1000 characters)",
       "settings": { "omitBody": true, "omit": true, "columnName": "commitments", "limit": 1000 }

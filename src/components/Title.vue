@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="titlecontainer">
     <h1 class="title" v-if="title">{{displayTitle}}</h1>
     <h3 class="subtitle" v-html="subtitle" v-if="subtitle">{{subtitle}}</h3>
     <div class="instructions" v-html="instructions" v-if="instructions">{{instructions}}</div>
@@ -41,6 +41,11 @@ export default {
 </script>
 
 <style scoped>
+
+  .titlecontainer {
+    max-height: 100vh;
+  }
+
   .title {
     margin-top: 0;
     max-width: 25rem;
@@ -65,9 +70,9 @@ export default {
   }
 
   .diagram {
-    max-width: 500px;
-    max-height: 80%;
-    margin: 1rem 0;
+    padding-top: 2rem;
+    max-width: 100%;
+    max-height: 85%;
   }
   .navigate {
     border: solid 2px;
