@@ -72,7 +72,7 @@ export default {
   .diagram {
     padding-top: 2rem;
     max-width: 100%;
-    max-height: 85%;
+    max-height: 75vh;
   }
   .navigate {
     border: solid 2px;

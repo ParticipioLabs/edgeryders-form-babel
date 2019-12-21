@@ -57,10 +57,19 @@
         "error": "Please enter your pseudonym",
         "settings": { "omit": false, "limit": 13 }
       }, {
+        "name": "email",
+        "type": "email",
+        "placeholder": "E-mail (If you're already on Edgeryders, use another email)",
+        "half": true,
+        "required": true,
+        "error": "Please enter your email address",
+        "settings": { "omit": true}
+      }, {
         "name": "location",
         "type": "text",
         "placeholder": "Where are you based?",
         "required": true,
+        "half": true,
         "error": "Please enter where you are based",
         "settings": { "omit": true, "limit": 30 }
       }, {
@@ -68,6 +77,7 @@
         "type": "text",
         "placeholder": "Gender identity",
         "required": true,
+        "half": true,
         "error": "Please enter your gender identity",
         "settings": { "omit": true, "limit": 30 }
       }, {
@@ -75,6 +85,7 @@
         "type": "text",
         "placeholder": "What is your age?",
         "required": true,
+        "half": true,
         "error": "Please enter your age",
         "settings": { "omit": true, "limit": 30 }
       }, {
@@ -84,13 +95,6 @@
         "required": true,
         "error": "Please enter your age",
         "settings": { "omit": true, "limit": 100 }
-      }, {
-        "name": "email",
-        "type": "email",
-        "placeholder": "E-mail (If you're already on Edgeryders, use another email)",
-        "required": true,
-        "error": "Please enter your email address",
-        "settings": { "omit": true}
       }],
       "settings": { "omitBody": true, "columnName": "details" }
     },
