@@ -42,10 +42,6 @@ export default {
 
 <style scoped>
 
-  .titlecontainer {
-    max-height: 100vh;
-  }
-
   .title {
     margin-top: 0;
     max-width: 25rem;
@@ -67,6 +63,7 @@ export default {
     max-width: 90%;
     background-color: lightgrey;
     padding: 1rem;
+    overflow: scroll;
   }
 
   .diagram {
