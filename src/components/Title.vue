@@ -32,7 +32,7 @@ export default {
     displayTitle() { return this.title.replace(/{{index}}/, this.index) },
     currentRecord () { return this.airtable.find( ({ id }) => id === this.recordid ); },
     prompt () {
-      return decodeURI(this.currentRecord.fields.fiction)
+      return this.currentRecord.fields.fiction
         .replace(/(\[quote=").*(\"])/g, "")
         .replace(/(\[\/quote\])/g, "");
     }
