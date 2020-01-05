@@ -38,7 +38,7 @@
         "src": "quipu.png",
         "alt": "Drawing of a Quipu"
       },      
-      "body": "<h1>Who are you?</h1><p>This is the application for the Babel Between Us project. If you have not read <a href='https://www.babelbetween.us/'>the introduction to the project</a>, you should do so before applying.</p> <p>Please allow a decent amount of time for this application. Especially the two writing samples should not be rushed.</p>  <p>We ask you to pick a pseudonym as the project is anonymous at the start. This pseudonym will be your username throughout the project.</p> <p><strong>All information in the application will only be available to the Babel Between Us team, unless otherwise stated.</p>",
+      "body": "<h1>Who are you?</h1><p>This is the application for the Babel Between Us project. If you have not read <a href='https://www.babelbetween.us/'>the introduction to the project</a>, you should do so before applying.</p> <p>Please allow a decent amount of time for this application. Especially the two writing samples should not be rushed.</p> <p>The form should save your responses as you go along, but please also keep your responses on your computer in case something goes wrong with the submission. In the rare case that the form will not work on your computer, you can email your answers to team [at] bbu.world.</p>  <p>We ask you to pick a pseudonym as the project is anonymous at the start. This pseudonym will be your username throughout the project.</p> <p><strong>All information in the application will only be available to the Babel Between Us team, unless otherwise stated.</p>",
       "fields": [{
         "name": "name",
         "type": "text",
